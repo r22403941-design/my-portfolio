@@ -1,10 +1,141 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Portfolio</title>
-</head>  
-<body>
-  <h1>Hello! Meri Website Live Hai</h1>
-  <p>Ye meri pehli Netlify website hai.</p>
-</body>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+ <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Skills</a>
+        <a href="#">Contact</a>
+      </nav>
+<body style="background-color: #e0e0e0;">
+    <img src="Spiderman.jpeg" alt="Spiderman" width="300" class="portfolio-pic">
+    <style> 
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 30px;
+    } 
+    .btn {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 30px;
+        border: none;
+        border-radius: 25px;
+        font-size: 16px;
+        cursor: pointer;
+        display:inline-block;
+        margin: 10px auto;
+    }
+    .btn:hover {
+        background-color: #0056b3;
+    }
+    nav {
+            background-color: #333;
+            padding: 15px;
+            text-align: center;
+            overflow: hidden;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        
+        nav a:hover {
+            color: #00aaff;
+        }   
+       .about, .skills {
+            width: 60%;
+            margin: 30px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: left;
+       } 
+    
+    
+        .about, .skills {
+            width: 60%;
+            margin: 30px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: left;
+        }
+        
+            h1,p {
+                text-align: center;
+            }
+        
+    
+    
+        .portfolio-pic {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+            object-fit: cover;
+        } 
+        body {
+        text-align: center;
+        margin-top: 50px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10x;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+    </style>
+     <h1>
+        Faizan Ashraf
+     </h1>       
+     <p>
+        I Am Learning Web Development
+     </p> 
+     <botton class="btn">Hire Me</botton>  
+     <div class="about">
+        <h2>About Me</h2>
+        <p>Main Faizan Ashraf ho. Main abhi HTML or CSS seekh raha ho.</p>
+
+     </div>
+    <div class="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+    </div>
+    <footer>
+        <p>(c) 2026 Faizan Ashraf. All rights reserved.</p>
+    </footer>
+    <div>
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Faizan Ashraf" required>
+            <input type="email" placeholder="r22403941@gmail.com" required>
+            <textarea placeholder="Apna Message Likho" rows="4" required></textarea>
+            <button type="Submit" class="btn">Send Message</button>     
+        </form>
+    </div>
+     
+
+
+    
+</body>
 </html>
