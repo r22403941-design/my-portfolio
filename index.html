@@ -3,16 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
- <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Skills</a>
-        <a href="#">Contact</a>
-      </nav>
-<body style="background-color: #e0e0e0;">
-    <img src="images/Spiderman.jpg" alt="Spiderman" width="200" class="portfolio-pic" style="border-radius: 50%">
+    <title>Faizan Ashraf - Portfolio</title>
     <style> 
     footer {
         background-color: #333;
@@ -36,84 +27,82 @@
         background-color: #0056b3;
     }
     nav {
-            background-color: #333;
-            padding: 15px;
-            text-align: center;
-            overflow: hidden;
-        }
-        
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 18px;
-        }
-        
-        nav a:hover {
-            color: #00aaff;
-        }   
-       .about, .skills {
-            width: 60%;
-            margin: 30px auto;
-            background-color: white;
-            padding: 20px;
-            border-radius: 10px;
-            text-align: left;
-       } 
-    
-    
-        .about, .skills {
-            width: 60%;
-            margin: 30px auto;
-            background-color: white;
-            padding: 20px;
-            border-radius: 10px;
-            text-align: left;
-        }
-        
-            h1,p {
-                text-align: center;
-            }
-        
-    
-    
-        .portfolio-pic {
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-            object-fit: cover;
-        } 
-        body {
+        background-color: #333;
+        padding: 15px;
         text-align: center;
-        margin-top: 50px;
-        }
-        input, textarea {
-            width: 100%;
-            padding: 10px;
-            margin: 10x;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            font-size: 16px;
-            box-sizing: border-box;
-        }
-        form {
-            max-width: 500px;
-            margin: 0 auto;
-        }
+        overflow: hidden;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 18px;
+    }
+    nav a:hover {
+        color: #00aaff;
+    }   
+    .about, .skills, .contact {
+        width: 60%;
+        margin: 30px auto;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: left;
+    } 
+    h1,p,h2 {
+        text-align: center;
+    }
+    .portfolio-pic {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+        object-fit: cover;
+        display: block;
+        margin: 20px auto;
+    } 
+    body {
+        text-align: center;
+        margin-top: 0;
+        background-color: #e0e0e0;
+        font-family: Arial;
+    }
+    input, textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0; /* yahan 10x ki galti thi */
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        box-sizing: border-box;
+    }
+    form {
+        max-width: 500px;
+        margin: 0 auto;
+    }
     </style>
-     <h1>
-        Faizan Ashraf
-     </h1>       
-     <p>
-        I Am Learning Web Development
-     </p> 
-     <botton class="btn">Hire Me</botton>  
-     <div class="about">
-        <h2>About Me</h2>
-        <p>Main Faizan Ashraf ho. Main abhi HTML or CSS seekh raha ho.</p>
+</head>
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Skills</a>
+        <a href="#">Contact</a>
+    </nav>
 
-     </div>
+    <h1>Faizan Ashraf</h1>       
+    <p>I Am Learning Web Development</p> 
+
+    <!-- YAHAN PIC WALA LINE THEEK KIYA -->
+    <img src="images/spiderman.jpg" alt="Spiderman" class="portfolio-pic">
+
+    <button class="btn">Hire Me</button>  
+
+    <div class="about">
+        <h2>About Me</h2>
+        <p>Main Faizan Ashraf hun. Main abhi HTML or CSS seekh raha hun.</p>
+    </div>
+
     <div class="skills">
         <h2>My Skills</h2>
         <ul>
@@ -121,21 +110,19 @@
             <li>CSS</li>
         </ul>
     </div>
+
+    <div class="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Apna Naam" required>
+            <input type="email" placeholder="Apna Email" required>
+            <textarea placeholder="Apna Message Likho" rows="4" required></textarea>
+            <button type="submit" class="btn">Send Message</button>     
+        </form>
+    </div>
+
     <footer>
         <p>(c) 2026 Faizan Ashraf. All rights reserved.</p>
     </footer>
-    <div>
-        <h2>Contact Me</h2>
-        <form>
-            <input type="text" placeholder="Faizan Ashraf" required>
-            <input type="email" placeholder="r22403941@gmail.com" required>
-            <textarea placeholder="Apna Message Likho" rows="4" required></textarea>
-            <button type="Submit" class="btn">Send Message</button>     
-        </form>
-    </div>
-     
-
-
-    
 </body>
 </html>
